@@ -1,16 +1,23 @@
-# This is a sample Python script.
+#task1
+name = 'Vadim'
+day = 'Monday'
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print('"Good day, ' + name.upper() + '! ' + day.lower() + ', ' + 'is a perfect day to learn some python."')
+
+#task2
+first_name = 'Vadim'
+last_name = 'Kurilko'
+print(first_name + ' ' + last_name)
+
+#task3
+a = 9
+b = 2
+print('Addition:', a + b)
+print('Subtraction:', a - b)
+print('Division:', a / b)
+print('Multiplication:', a * b)
+print('Exponent (Power):', a ** b)
+print('Modulus:', a % b)
+print('Floor division:', a // b)
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
